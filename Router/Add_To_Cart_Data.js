@@ -6,8 +6,8 @@ const cart_router = express.Router()
 
 
 
-cart_router.post("/Save_in_cart",Product_Cart_Data)
-cart_router.get("/get_all_products",get_product_data)
+cart_router.post("/post",Product_Cart_Data)
+cart_router.get("/post",get_product_data)
 
     
 
